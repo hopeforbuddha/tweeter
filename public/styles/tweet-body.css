@@ -21,7 +21,8 @@
   flex-direction: row;
   justify-content: space-between;
   padding: 1em;
-  opacity: 60%;
+  color: #b5b5b5;
+  
 }
 
 .body-text {
