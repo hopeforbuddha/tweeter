@@ -1,11 +1,23 @@
 .container {
   display: flex;
   width: 90%;
-  align-self: center;
+  /* align-self: center;
   align-content: center;
-  justify-self: center;
-  justify-content: center;
+  justify-self: center; */
+  /* justify-content: fle; */
   flex-direction: column;
-  text-align: center;
-  margin: auto;
+  /* text-align: center; */
+  /* margin-top: 200px; */
+}
+
+@media only screen and (min-width: 1024px)
+{
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+
+    width: 40%;
+  }
+
 }

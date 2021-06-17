@@ -1,8 +1,5 @@
 .tweet-container {
   size: 90%;
-  /* border-style: solid;
-  border-bottom-width: 3px;
-  border-color: #004643; */
   margin-top: 2em;
   margin-bottom: 1.5em;
 }
@@ -35,6 +32,8 @@
   border-left: 0em;
   border-right: 0em;
   border-top: 0em;
+  flex-wrap: wrap;
+  text-align: left;
 }
 
 .bellow {

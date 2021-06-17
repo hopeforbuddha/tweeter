@@ -4,18 +4,19 @@
   height: 120px;
   width: 100%;
   justify-content: space-between;
-  position: sticky;
+  position: fixed;
+  align-items: center;
   top: 0em;
-  background-color: #004643;
+  background-color: no;
   background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
 }
 
 .title {
   display: flex;
-  color: #FFFF;
+  color: #545149;
   font-family: 'Bungee', cursive;
-  align-self: flex-start;
-  padding: 1.5em;
+  /* align-self: flex-start; */
+  padding: 0.6em;
   font-size: 30pt;
 }
 
@@ -23,12 +24,13 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-}
+  /* align-self: right; */
+  }
 
 .tweet {
-  color: #FFFF;
+  color: #545149;
   display: flex;
-  padding: 1.5em;
+  padding: 0.6em;
   padding-bottom: 5px;
   align-self: flex-end;
   margin: 0em;
@@ -39,4 +41,31 @@
   color: red;
   align-self: center;
   padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 1024px)
+{
+.tweet {
+  padding: 1.5em;
+  padding-bottom: 5px;
+  color: white;
+}
+
+  .title {
+    padding: 1.5em;
+    color: white;
+  }
+
+  .navBar {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 100%;
+    justify-content: space-between;
+    position: fixed;
+    top: 0em;
+    background-color: #004643;
+    background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+  }
+
 }
