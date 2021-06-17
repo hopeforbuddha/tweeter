@@ -1,0 +1,71 @@
+.tweet-container {
+  size: 90%;
+  /* border-style: solid;
+  border-bottom-width: 3px;
+  border-color: #004643; */
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+}
+
+.tweet-container article {
+  border-style: solid;
+  border-bottom-width: 3px;
+  border-color: #004643;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+
+}
+
+.usernames {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1em;
+  opacity: 60%;
+}
+
+.body-text {
+  display: flex;
+  margin: 0.5em;
+  padding: 1em;
+  border-style: solid;
+  border-bottom-width: 6px;
+  border-color: #004643;
+  border-left: 0em;
+  border-right: 0em;
+  border-top: 0em;
+}
+
+.bellow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 0.6em;
+  padding-top: 0.3em;
+}
+
+.time {
+  margin: 0em;
+  padding-left: 1em;
+  display: flex;
+  align-self: flex-start;
+}
+
+.icons {
+  display: flex;
+  align-content: flex-start;
+  padding-right: 0.8em;
+}
+
+.icons i {
+  padding: 8px;
+  color: #004643;
+}
+
+.tweet-container article:hover {
+  box-shadow: 6px 6px #F0803C;
+}
+.icons i:hover {
+
+  color: #F0803C;
+}

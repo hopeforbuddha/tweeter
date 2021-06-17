@@ -1,0 +1,42 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+  width: 100%;
+  justify-content: space-between;
+  position: sticky;
+  top: 0em;
+  background-color: #004643;
+  background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+}
+
+.title {
+  display: flex;
+  color: #FFFF;
+  font-family: 'Bungee', cursive;
+  align-self: flex-start;
+  padding: 1.5em;
+  font-size: 30pt;
+}
+
+.arrowTweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.tweet {
+  color: #FFFF;
+  display: flex;
+  padding: 1.5em;
+  padding-bottom: 5px;
+  align-self: flex-end;
+  margin: 0em;
+}
+
+.fa-angle-double-down {
+  display: flex;
+  color: red;
+  align-self: center;
+  padding-bottom: 10px;
+}

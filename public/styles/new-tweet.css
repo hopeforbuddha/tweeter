@@ -1,0 +1,67 @@
+.newtweet {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.submcount {
+  display: flex; 
+  justify-content: space-between;
+  padding-top: 1em;
+  font-family: 'Bungee', cursive;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.texttitle {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 1em;
+}
+
+#tweet-text {
+  background-color: #f4f1ec;
+  border-style: solid;
+  border-bottom-width: 6px;
+  border-color: #004643;
+  border-left: 0em;
+  border-right: 0em;
+  border-top: 0em;
+  resize: none;
+}
+
+.btn {
+  color: #f4f1ec;
+  display: flex;
+  border: none;
+  background-color: #004643;
+  text-align: center;
+  flex-grow: 1.2em;
+}
+.btn:active {
+  color: #004643;
+  display: flex;
+  border: none;
+  background-color: #f4f1ec;
+  text-align: center;
+  flex-grow: 1.2em;
+}
+
+.textError {
+  color: red;
+}
+
+.tweetError {
+  color: red;
+  border-style: solid;
+  border-bottom-width: 2px;
+  border-color: red;
+  border-left-width: 2px;
+  border-right-width: 2px;
+  border-top-width: 2px;
+  padding: 0.6em;
+  margin: 1em;
+}

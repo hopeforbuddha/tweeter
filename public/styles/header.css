@@ -1,0 +1,10 @@
+.head {
+  display: flex;
+  background-color: #89D2DC;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");  
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 400px;
+  padding-top: 10px;
+}
