@@ -16,12 +16,6 @@
   flex-direction: column;
 }
 
-.texttitle {
-  display: flex;
-  justify-content: flex-start;
-  padding-top: 1em;
-}
-
 #tweet-text {
   background-color: #f4f1ec;
   border-style: solid;
@@ -31,6 +25,7 @@
   border-right: 0em;
   border-top: 0em;
   resize: none;
+  padding-top: 20px;
 }
 
 .btn {
